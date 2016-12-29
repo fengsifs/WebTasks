@@ -1,0 +1,12 @@
+.btn-submit {
+    cursor: pointer;
+    color: #ffffff;
+    background: #3fa156;
+    border: 1px solid #528641;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 26px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}/*豆瓣登录按钮*/
