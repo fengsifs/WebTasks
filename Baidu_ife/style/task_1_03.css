@@ -1,0 +1,26 @@
+body {
+    font-family: "Microsoft YaHei";
+    background: #dedede;
+}
+.left {
+    float: left;
+    padding-left: 20px;
+}
+.left, .right img {
+    padding-left: 20px;
+    height: 80px;
+    width: 80px;
+}
+.left p {
+    padding-right: 20px;
+}
+
+.middle {
+    padding-left: 240px;
+    padding-right: 160px;
+}
+
+.right {
+    float: right;
+    padding-right: 20px;
+}
