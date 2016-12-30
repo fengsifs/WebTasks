@@ -1,26 +1,37 @@
-body {
-    font-family: "Microsoft YaHei";
-    background: #dedede;
+.total {
+    font-family: "Microsoft YaHei", serif;
+    background: #eee;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #999;
+    overflow: hidden;
 }
 .left {
+    border: 1px solid black;
+    width: 160px;
+    padding: 20px;
     float: left;
-    padding-left: 20px;
 }
-.left, .right img {
-    padding-left: 20px;
+.left img, .right img{
     height: 80px;
     width: 80px;
 }
 .left p {
     padding-right: 20px;
 }
+.right {
+    border: 1px solid black;
+    width: 80px;
+    padding: 20px;
+    float: right;
+}
 
 .middle {
-    padding-left: 240px;
-    padding-right: 160px;
+    border: 1px solid black;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+    left: 20px;
+    right: 20px;
 }
 
-.right {
-    float: right;
-    padding-right: 20px;
-}
