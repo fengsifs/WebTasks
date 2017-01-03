@@ -25,10 +25,6 @@
     width: 80px;
     margin: 10px;
 }
-.left p {
-    position: relative;
-    left: 20px;
-}
 .right {
     border: 1px solid black;
     width: 100px;
