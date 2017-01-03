@@ -4,6 +4,7 @@
     padding: 20px;
     margin: 20px;
     border: 1px solid #999;
+    min-width: 420px;
     overflow: hidden;
 }
 .left {
@@ -12,26 +13,33 @@
     padding: 20px;
     float: left;
 }
-.left img, .right img{
+.left img{
+    float: left;
     height: 80px;
     width: 80px;
+    margin-right: 20px;
+}
+.right img{
+    float: left;
+    height: 80px;
+    width: 80px;
+    margin: 10px;
 }
 .left p {
-    padding-right: 20px;
+    position: relative;
+    left: 20px;
 }
 .right {
     border: 1px solid black;
-    width: 80px;
-    padding: 20px;
+    width: 100px;
+    padding: 10px;
     float: right;
 }
 
 .middle {
     border: 1px solid black;
     padding: 20px;
-    overflow: hidden;
-    position: relative;
-    left: 20px;
-    right: 20px;
+    margin-left: 220px;
+    margin-right: 140px;
 }
 
