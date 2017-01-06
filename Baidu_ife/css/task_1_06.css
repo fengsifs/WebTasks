@@ -138,7 +138,7 @@ main .p2 .r p {
 }
 main .p3 {
     position: relative;
-    top: 100px;
+    top: 50px;
 }
 main .p3 .lp {
     width: 415px;
@@ -179,20 +179,27 @@ main .p3 .rp {
     width: 459px;
     float: left;
     margin-left: 18px;
+    position: relative;
+    left: 18px;
 }
 main .p3 .rp .up {
     width: 458px;
     height: 275px;
 }
-main .p3 .rp .mohu {
+main .p3 .rp .up img {
+    position: absolute;
+    left: 0;
+}
+main .p3 .rp .up .mohu {
     width: 458px;
     height: 61px;
     background: #cccccc;
     opacity: 0.6;
+    float: left;
     position: absolute;
-    top: 323px;
+    top: 214px;
 }
-main .p3 .rp h4 {
+main .p3 .rp .up h4 {
     height: 44px;
     margin-left: 40px;
     border-left: 3px solid #72b16a;
@@ -200,9 +207,18 @@ main .p3 .rp h4 {
     color: #ffffff;
     font-family: "Microsoft YaHei", yaHei, serif;
     position: absolute;
-    top: 332px;
+    top: 220px;
     padding-left: 15px;
+    float: left;
 }
+main .p3 .rp .down {
+    width: 459px;
+    height: 318px;
+    position: relative;
+    top: 20px;
+    background: #eeeed7;
+}
+
 footer {
     width: 892px;
     height: 61px;
