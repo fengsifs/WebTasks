@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 1180px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+header img {
+    float: left;
+}
+header h2 {
+    float: left;
+    margin-left: 10px;
+}
+header .nav {
+    float: right;
+}
+header .nav ul {
+    list-style-type: none;
+}
+header .nav li {
+    height: 35px;
+    width: auto;
+    float: left;
+    position: relative;
+    margin-left: 10px;
+    border-bottom: 2px solid white;
+}
+header .nav li:hover {
+
+    border-bottom: 2px solid #E34952;
+}
+header .nav li a {
+    text-decoration: none;
+    color: #7E7F83;
+}
+header .nav li a:hover {
+    color: #E34952;
+}
+.clear {
+    clear: both;
+}
+.main {
+    width: 1280px;
+    height: 690px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.main img {
+    position: absolute;
+    z-index: -2;
+}
+.main .title {
+    float: left;
+    margin-top: 20%;
+    margin-bottom: auto;
+    margin-left: 100px;
+}
+.main h3 {
+    color: white;
+    font-size: xx-large;
+}
+.main h4 {
+    color: white;
+    font-size: medium;
+}
+.main button {
+    margin-top: 50px;
+    height: 60px;
+    width: 300px;
+    border: none;
+    background: #E64D52;
+    color: white;
+    font-size: x-large;
+}
+.signal {
+    width: 1180px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.area {
+    float: left;
+    width: 18%;
+    text-align: center;
+}
+.area p {
+    margin-top: 20px;
+}
+.space {
+    float: left;
+    height: 50px;
+    border-left: 1px solid black;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
